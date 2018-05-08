@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  vertical-align: middle;
+  margin: 6px;
+}
+
+.solution {
+  height: 100px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.selected {
+  background-color: red;
+  border: 1px solid red;
+  color: white;
+}
+
+.box {
+  width:30px;
+  height:30px;
+  margin: 2px;
+  text-align: center;
+  border-radius: 2px;
+  border: 1px solid grey;
+}
+
+.spot {
+  border-bottom: 2px solid black;
+  width: 15px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.sounds {
+  display: none;
+  volume: 0.8;
+}
+
+.correct {
+
+}
