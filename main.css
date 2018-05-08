@@ -1,20 +1,50 @@
 body {
   font-family: sans-serif;
+  background-image: url(http://www.naj-domus.hr/wp-content/uploads/2014/08/WallNotebookPaper.jpg);
+  background-position: top;
 }
 
 section {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 
 h2 {
-  text-align: center;
+  margin: 0;
+  font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+
+.vert-text {
+  transform: rotate(270deg);
+  margin-top: 42px;
 }
 
 p {
   vertical-align: middle;
   margin: 6px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.alphabet {
+  font-family: 'Raleway', sans-serif;
+  display: grid;
+  grid-template-columns: 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw;
+  
+}
+
+.title {
+  display: flex;
+}
+
+.animated-header {
+  max-width: 20vw;
 }
 
 .solution {
