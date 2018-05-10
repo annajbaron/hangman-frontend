@@ -32,11 +32,16 @@ p {
   align-items: center;
 }
 
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-around;
+}
+
 .alphabet {
-  font-family: 'Raleway', sans-serif;
   display: grid;
-  grid-template-columns: 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw;
-  
+  grid-template-columns: 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw;
 }
 
 .title {
@@ -47,6 +52,10 @@ p {
   max-width: 20vw;
 }
 
+#gallows {
+  max-width: 30vw;
+}
+
 .solution {
   height: 100px;
   padding-top: 30px;
@@ -55,25 +64,31 @@ p {
 }
 
 .selected {
-  background-color: red;
-  border: 1px solid red;
+  background-color: grey;
   color: white;
 }
 
-.box {
+.unselected {
+  background-color: white;
+}
+
+.letter {
   width:30px;
   height:30px;
-  margin: 2px;
+  margin: 1vh;
   text-align: center;
   border-radius: 2px;
   border: 1px solid grey;
+  font-family: 'Raleway', sans-serif;
 }
 
 .spot {
   border-bottom: 2px solid black;
-  width: 15px;
+  width: 30px;
   height: 20px;
   margin-right: 5px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
 }
 
 .sounds {
